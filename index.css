@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #5f1f1f;
+  color: #E9FFFE;
+}
+
+h1 {
+  margin: 0px 0px 0px 0px;
+  padding: 40px;
+  color: #212121;
+  letter-spacing: 4px;
+  background-color: #DDD;
+}
+
+.onlineOffline {
+  width: 250px;
+  margin: 20px auto 10px auto;
+  border: 1px solid #E9FFFE;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1px 6px 1px 6px;
+}
+
+.online,
+.offline,
+.all {
+  transition-property: letter-spacing, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.online:hover,
+.offline:hover,
+.all:hover {
+  cursor: pointer;
+  letter-spacing: 3px;
+  color: #616161;
+}
+
+img {
+  height: 65px;
+  width: 65px;
+  border: 3px solid #E9FFFE;
+}
+
+.cards {
+  padding: 5px;
+}
+
+.cardDetails {
+  padding: 35px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  background-color: #009688;
+  box-shadow: 0px 10px 0px #004D40;
+}
+
+.offlineCardDetails {
+  padding: 35px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  background-color: #009688;
+  box-shadow: 0px 10px 0px #004D40;
+}
+
+.channelName {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 120%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+  color: #212121;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #424242;
+}
+
+.offlineColor {
+  color: #b71c1c;
+}
